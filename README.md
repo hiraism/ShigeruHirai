@@ -1,1 +1,0 @@
-# hiraism.github.io
