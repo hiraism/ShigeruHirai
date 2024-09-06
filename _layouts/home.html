@@ -44,7 +44,7 @@ layout: default
 
       <div class="post-pagination">
         {% if paginator.next_page %}
-          <a href="{{ paginator.next_page_path | prepend: site.baseurl  }}" class="pagination-next btn">&lang;&nbsp;Older</a>
+          <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="pagination-next btn">&lang;&nbsp;Older</a>
         {% else %}
           <span>&nbsp;</span>
         {% endif %}
@@ -68,5 +68,4 @@ layout: default
   
   {% endif %}
     
-
 </main>
