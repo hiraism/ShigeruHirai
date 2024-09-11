@@ -33,9 +33,11 @@
 
     {{ content }}
 
-    <!-- {% unless site.hide_search %}
+    {% comment %}
+    {% unless site.hide_search %}
       {% include search.html %}
-    {% endunless %} -->
+    {% endunless %}
+    {% endcomment %}
 
     {% include menu.html %}
 
